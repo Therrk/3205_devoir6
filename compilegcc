@@ -1,5 +1,6 @@
 echo 
 echo compilation du programme ${a=${1}.c}
 
-gcc -c FonctionDemo6.c
-gcc -o $1 $a FonctionDemo6.o -lm
+gcc -g -c FonctionDemo6.c
+gcc -g -o $1 $a FonctionDemo6.o -lm
+
